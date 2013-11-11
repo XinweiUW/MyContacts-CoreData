@@ -66,9 +66,9 @@
     
     // Configure the cell...
     NSManagedObject *device = [self.contactarray objectAtIndex:indexPath.row];
-    [cell.textLabel setText:[NSString stringWithFormat:@"%@ %@", [device valueForKey:@"fullname"], [device valueForKey:@"email"]]];
-    [cell.detailTextLabel setText:[device valueForKey:@"phone"]];
-    
+    //[cell.textLabel setText:[NSString stringWithFormat:@"%@ %@", [device valueForKey:@"fullname"], [device valueForKey:@"email"]]];
+     [cell.detailTextLabel setText:[device valueForKey:@"phone"]];
+     [cell.textLabel setText:[NSString stringWithFormat:@"%@", [device valueForKey:@"fullname"]]];
     return cell;
 }
 
