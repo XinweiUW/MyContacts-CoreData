@@ -214,6 +214,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Chuck Konkol";
 				TargetAttributes = {
+					124F62541830564200486EB0 = {
+						DevelopmentTeam = LAK6SGQ7Q5;
+					};
 					124F62741830564200486EB0 = {
 						TestTargetID = 124F62541830564200486EB0;
 					};
@@ -392,7 +395,7 @@
 				GCC_PREFIX_HEADER = "MyContacts/MyContacts-Prefix.pch";
 				INFOPLIST_FILE = "MyContacts/MyContacts-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "afe3ab53-d1bc-40a3-8789-42501df08d63";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,7 +411,7 @@
 				GCC_PREFIX_HEADER = "MyContacts/MyContacts-Prefix.pch";
 				INFOPLIST_FILE = "MyContacts/MyContacts-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "afe3ab53-d1bc-40a3-8789-42501df08d63";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
